@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom"; // Import Link for routing
-import logo from "../assets/images/logo.png";
+// import logo from "../assets/images/logo.png";
 import { useSelector } from "react-redux";
 
 const Navigation = () => {
@@ -23,13 +23,14 @@ const Navigation = () => {
     setIsOpen(!isOpen);
   };
 
+
   return (
     <nav className="bg-white shadow-lg text-[#BD1521]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link to="/">
-              <img className="h-8 w-auto md:h-30" src={logo} alt="logo" />
+              <img className="h-8 w-auto md:h-30" src={"https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?semt=ais_hybrid&w=740"} alt="logo" />
             </Link>
           </div>
 

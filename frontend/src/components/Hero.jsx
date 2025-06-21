@@ -1,11 +1,15 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-import Banner1 from '../assets/images/banner-1.jpg';
-import Banner2 from '../assets/images/banner-2.jpg';
-import Banner3 from '../assets/images/banner-3.jpg';
+// import Banner1 from '../assets/images/banner-1.jpg';
+// import Banner2 from '../assets/images/banner-2.jpg';
+// import Banner3 from '../assets/images/banner-3.jpg';
 import 'swiper/css';
 
 const Hero = () => {
+let Banner1 ="https://www.skyweaver.net/images/media/wallpapers/wallpaper2.jpg";
+let Banner2 ="https://www.skyweaver.net/images/media/wallpapers/wallpaper2.jpg";
+let Banner3 ="https://www.skyweaver.net/images/media/wallpapers/wallpaper2.jpg";
+
 	return (
 		<Swiper
 			className='mySwiper h-[80vh] w-full'

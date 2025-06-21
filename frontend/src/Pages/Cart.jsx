@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { toast } from 'npm i react-toastify';
+import { toast } from 'react-toastify';
 const apiUrl = import.meta.env.VITE_API_BASE_URL;
 
 // Reusable Product Component

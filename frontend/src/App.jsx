@@ -8,7 +8,7 @@ import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Footer from './components/Footer';
 import LoginPage from './Pages/LoginPage';
-import SignUp from './Pages/signup';
+import SignUp from './Pages/Signup';
 import Cart from "./Pages/Cart" 
 import Logout from "./Pages/Logout" 
 import AdminPage from './Pages/AdminPage';
@@ -16,7 +16,6 @@ import Products from './Pages/Products';
 import { ToastContainer } from 'react-toastify';
 import { useLocation } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
-import { useLocation } from 'react-router-dom';
 
 const App = () => {
 

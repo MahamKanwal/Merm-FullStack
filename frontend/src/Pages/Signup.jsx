@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { Formik, Form, Field, ErrorMessage } from '';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 import * as Yup from 'yup';
 const apiUrl = import.meta.env.VITE_API_BASE_URL;
-console.log('API URL:', import.meta.env.VITE_API_URL);
 const validationSchema = Yup.object({
 	username: Yup.string()
 		.matches(/^[a-zA-Z0-9]+$/, 'Username can only contain letters and numbers (No spaces or special characters)')

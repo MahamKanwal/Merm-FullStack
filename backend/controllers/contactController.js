@@ -1,6 +1,7 @@
 import Contact from "../Models/Contact.js";
 import dotenv from "dotenv";
-import sendEmail from "../Utils/sendEmail.js";
+// import sendEmail from "../Utils/sendEmail.js";
+import sendEmail from "../Utlis/sendEmail.js";
 dotenv.config();
 
 const submitContactForm = async (req, res) => {
